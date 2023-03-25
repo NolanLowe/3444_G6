@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nolan\\source\\repos\\toDoList\\webapi\\webapi.csproj": {}
+    "C:\\Users\\nolan\\OneDrive\\Documents\\GitHub\\3444_G6\\todoList\\webapi\\webapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nolan\\source\\repos\\toDoList\\webapi\\webapi.csproj": {
+    "C:\\Users\\nolan\\OneDrive\\Documents\\GitHub\\3444_G6\\todoList\\webapi\\webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nolan\\source\\repos\\toDoList\\webapi\\webapi.csproj",
+        "projectUniqueName": "C:\\Users\\nolan\\OneDrive\\Documents\\GitHub\\3444_G6\\todoList\\webapi\\webapi.csproj",
         "projectName": "webapi",
-        "projectPath": "C:\\Users\\nolan\\source\\repos\\toDoList\\webapi\\webapi.csproj",
+        "projectPath": "C:\\Users\\nolan\\OneDrive\\Documents\\GitHub\\3444_G6\\todoList\\webapi\\webapi.csproj",
         "packagesPath": "C:\\Users\\nolan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nolan\\source\\repos\\toDoList\\webapi\\obj\\",
+        "outputPath": "C:\\Users\\nolan\\OneDrive\\Documents\\GitHub\\3444_G6\\todoList\\webapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nolan\\AppData\\Roaming\\NuGet\\NuGet.Config",
