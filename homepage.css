@@ -1,0 +1,69 @@
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f2f2f2; /* Set the background color of the container */
+    padding-top: 50px;
+    width: 20%;
+    height: 100%;
+
+  }
+.left-button{
+    background-color: rgb(100, 46, 172);
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    width: 300px;
+    padding: 10px 20px; 
+    margin: 4px 2px;
+
+    font-size: 16px;
+    text-align: left;
+    transition: opacity 200ms;
+      color: 200ms;
+      box-shadow: 200ms;
+  }
+.left-button:hover{
+    background-color: rgb(160, 157, 157);
+    box-shadow: 5px 5px 10px rgba(0,0,0, .15);
+    color: black;
+    opacity: .5;
+  }
+.left-button:active{
+    opacity: .7;
+  }
+
+/* .inbox-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 7000px;
+  height: 2400px;
+  background-color: red;
+  background-position: right;
+  background-size: cover; 
+
+  }
+  */
+.complete-button{
+
+    background-color: rgb(88, 81, 97);
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    width: 300px;
+    padding: 10px 20px; 
+    margin: 4px 2px;
+
+    font-size: 16px;
+    text-align: left;
+    transition: opacity 200ms;
+      color: 200ms;
+      box-shadow: 200ms;
+}
