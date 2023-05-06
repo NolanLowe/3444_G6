@@ -1,25 +1,86 @@
 <!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<title>TODOLIST</title>
+	<link rel = "stylesheet" href = "homepage.css">
+	<script defer src = "homepage.js"></script>
+</head>
+
+<body>
+		<div class = "container">
+			<div class = "menu_icon_box">
+				<div class ="line1"> </div>
+				<div class ="line2"> </div>
+				<div class ="line3"> </div>
+			</div>
+
+			<div class = "box">
+				<nav>
+					<ul>
+						<li><a href = "#">Inbox</a></li>
+						<li><a href = "#">Today</a></li>
+						<li><a href = "#">Upcoming</a></li>
+						<li><a href = "#">About Us</a></li>
+						<li><a href = "#">Contact Us</a></li>
+						<!-- <button class = "tabs__button" data-for-tab ="1">Inbox</button> -->
+					</ul>
+				</nav>
+			</div>
+		</div>
+		
+
+</body>
+	<script>
+		let menu_icon_box = document.querySelector('.menu_icon_box');
+		let box = document.querySelector('.box');
+
+		menu_icon_box.onclick = function(){
+			menu_icon_box.classList.toggle("active");
+			box.classList.toggle("active");
+		}
+
+		document.onclick = function(e){
+			if(!menu_icon_box.contains(e.target) && !box.contains(e.target)){
+				menu_icon_box.classList.remove("active");
+				box.classList.remove("active");
+			}
+		}
+	</script>
+
+</html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
-	<title>StayOnTask</title>
-	<link rel="stylesheet" type="text/css" href="homepage.css">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css">
+    <script defer src="homepage.js"></script>
+	<title>Welcome to TODOLIST</title>
+
 </head>
 <body>
 	<div id="header">
-    <a href="#" class="header-button">Home </a>
-		<h1>Stay on Task</h1>
-	</div>
-	<div id="sidebar">
+		<button id = "close-menu">X</button>
+		<h1>Welcome to Stay on Task</h1>
+
+	</div> 
+	<div id="sidebar" class = "open">
 		<a href="#" class="button">Inbox </a>
 		<a href="#" class="button">Today </a>
 		<a href="#" class="button">Upcoming </a>
 	</div>
 	<div id="main">
-		<h3>Welcome to StayOnTask!</h3>
-		<p>Looks like you don't have an account with us!</p>
-    <a href="./login.html" class="button">Login here! </a>
-    <a href="./register.html" class="button">New User? Create an Account! </a>
+		<h2>Today</h2>
+		<p>Task blah blah blah</p>
+    <a href="#" class="button">Task 1 </a>
+    <a href="#" class="button">Task 2 </a>
+    <a href="#" class="button">Task 3 </a>
 	</div>
+
+	<script src="homepage.js"></script>
 </body>
 </html>
-
+ -->
