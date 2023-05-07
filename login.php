@@ -28,7 +28,7 @@ if($stmt->num_rows > 0) {
 	// success redirect to logged-in page
         $stmt->close();
         $conn->close();
-        header("Location: task_management.html");
+        header("Location: homepage.html");
     }
 	
 	else{
