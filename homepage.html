@@ -22,7 +22,7 @@
 			<div class = "box">
 				<nav>
 					<ul>
-						<li><a href = "#">Inbox</a></li>
+						<li><a href = "TaskManagement.html">Inbox</a></li>
 						<li><a href = "#">Today</a></li>
 						<li><a href = "#">Upcoming</a></li>
 						<li><a href = "#">About Us</a></li>
@@ -50,6 +50,11 @@
 				box.classList.remove("active");
 			}
 		}
+		const inboxLink = document.querySelector('a[href="TaskManagement.html"]');
+    		inboxLink.addEventListener("click", function (event) {
+      		event.preventDefault();
+      		window.location.href = "task_management.html";
+    });
 	</script>
 
 </html>
