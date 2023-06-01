@@ -6,7 +6,7 @@ Instructions to run:
 2. Register/login
 3. enjoy!
 
-Members/Contributions
-Nolan: Server-side set up, login and register page
-Anson: Home page
-Richard: Task-management page
+Members/Contributions:
+1. Nolan: Server-side set up, login and register page
+2. Anson: Home page
+3. Richard: Task-management page
